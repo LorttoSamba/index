@@ -1,38 +1,58 @@
 <!DOCTYPE html>
 <html lang="fi">
 
-    <head>
-        <meta name="author" content="Samu Alanko">
-        <meta charset="UTF-8">
-        <meta name="keywords" content="html, css">
-        <meta name="description" content="Uni assignment thingy">
-        <title>Aito Kela // index</title>
-    
-        <link href="ex4.css" rel="stylesheet" type="text/css" media="all">
-    
-    
-    </head>
+<head>
+    <meta name="author" content="Samu Alanko">
+    <meta charset="UTF-8">
+    <meta name="keywords" content="html, css">
+    <meta name="description" content="Uni assignment thingy">
+    <title>Aito Kela // index</title>
 
-    <header>
-        <h1> Aito Kela </h1>
-      </header>
+    <link href="ex4.css" rel="stylesheet" type="text/css" media="all">
 
-      <main>
-        Perfect opportunity to plug some self advertisement ;) <br>
-        Below are links to some of my YouTube playlists. <br>
-        <a href="https://www.youtube.com/playlist?list=PLH044RYg0S_1cugZBi3TqSTSE1Xa9os_q">Muzét</a>
-        <img src="images\musee.png" style="width:60px;height:60px; float: left;"> </p>
-      </main>
 
-      <aside>
-        <p> <a href="https://www.youtube.com/playlist?list=PLH044RYg0S_1cugZBi3TqSTSE1Xa9os_q">Muzét</a> </p>
-        <img src="images\musee.png" style="width:60px;height:60px;">
+</head>
+
+<header>
+    <h1> Aito Kela </h1>
+</header>
+
+<main>
+    <div class="container">
+    Perfect opportunity to plug some self advertisement ;) <br>
+    Below are links to some of my YouTube playlists. <br>
+    <br>
+    <a href="https://www.youtube.com/playlist?list=PLH044RYg0S_1cugZBi3TqSTSE1Xa9os_q">Muzét</a>
+    <img src="images\musee.png" style="width:60px;height:60px; float: left;"> </p>
+</div>
+</main>
+
+<aside>
+    <div class="container">
+        <h3> random form:</h3>
+        <label for="fname">Nimi</label>
         <br>
-        <p> <a href="https://www.youtube.com/playlist?list=PLH044RYg0S_3Bg7JsAbL6sBUNMbs24qSE">Pascal</a> </p>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
         <br>
-        <p> <a href="https://www.youtube.com/playlist?list=PLH044RYg0S_2BVa2-LGPqvcBtVdoFm-34">Random</a> </p>
-      </aside>
+        <label for="lname">Ikä</label>
+        <br>
+        <input type="text" id="lname" name="lastname" placeholder="Your age..">
+        <br>
+        <label for="Maa">Maa</label>
+        <select id="country" name="country">
+            <option value="australia">Suomi</option>
+            <option value="canada">Joku muu</option>
+        </select>
+        <br>
+        <label for="subject">Kommentti</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
 
-      <footer>
-        Footer
-      </footer>
+        <input type="submit" value="Submit">
+
+        </form>
+    </div>
+</aside>
+
+<footer>
+    Footer
+</footer>

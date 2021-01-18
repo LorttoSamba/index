@@ -39,10 +39,8 @@ body {
     background: #57df2e;
     display: flex;
     align-items: center;
-    justify-content: left;
+    justify-content: center;
     font-size: larger;
-    padding-top: 4px;
-    padding-left: 6px;
 
   }
 
