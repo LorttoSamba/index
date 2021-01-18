@@ -27,17 +27,18 @@ body {
   main {
       background: #eaeaea;
       display: flex;
-      align-items: left;
+      align-items: center;
       justify-content: left;
       font-size: larger;
       padding-top: 4px;
       padding-left: 6px;
   }
+  
 
   aside {
     background: #57df2e;
     display: flex;
-    align-items: left;
+    align-items: center;
     justify-content: left;
     font-size: larger;
     padding-top: 4px;
